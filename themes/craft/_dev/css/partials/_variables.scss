@@ -1,0 +1,87 @@
+//Gray colors
+$gray-darker: #505050;
+$gray-dark: /* #878787 */ #1d1d1d;
+$gray: #acaaa6;
+$gray-light: #ebebeb;
+$gray-lighter: #a3a3a3;
+$gray-lnk-color: #777;
+$footer-links-color: #818181;
+//Brand color
+$brand-primary: /* #9d8347 */ #b89955;  
+$brand-secondary: #333;
+$brand-success: #4cbb6c;
+$brand-warning: #ff9a52;
+$brand-danger: #ff4c4c;
+//Bg Color
+$bg-color: #f9f9f9;
+$left-panel: #fff;
+//Label color
+$label-color: $gray-darker;
+$sale-label: #f44444;
+//Buttons color
+$btn-primary-color: #fff;
+$btn-primary-bg: $brand-primary;
+$btn-primary-border: transparent;
+$btn-secondary-color: $gray-darker;
+$btn-secondary-bg: $gray-lighter;
+$btn-secondary-border: transparent;
+$btn-border-radius: 0;
+$headings-font-weight: 700;
+$tooltip-bg: $brand-danger;
+$border-radius: 0;  
+//border colors
+$border-color: #ebebeb; 
+$border-menu: #f7f7f7;
+$extra-small-space: rem(5px);
+$small-space: rem(10px);
+$medium-space: rem(20px);
+$large-space: rem(30px);
+$extra-large-space: rem(40px);
+$warning: #FF9A52;
+$warning-hover: #FDE7BB;
+$alert-warning-bg: rgba(255,154,82,0.3);
+$alert-warning-border: $warning;
+$alert-warning-text: $gray-darker;
+$btn-warning-bg: $warning;
+$btn-warning-color: white;
+$btn-tertiary-color: #6C868E;
+$btn-tertiary-hover: #BBCDD2;
+$base-font-size: rem(16px);
+$font-size-lg: rem(15px);
+$font-size-sm: rem(14px);
+$font-size-xs: rem(13px);
+$font-size-h1: rem(22px);
+$font-size-h2: rem(20px);
+$font-size-h3: rem(18px);
+$font-size-h4: rem(18px);
+$font-size-h5: rem(16px);
+$font-size-h6: rem(15px);
+$display1-size: rem(50px);
+$display1-weight: 600;
+$display2-size: rem(35px);
+$display2-weight: 400;
+$display3-size: rem(25px);
+$display3-weight: 400;
+$display4-size: rem(20px);
+$display4-weight: 400;
+$text-muted: $gray;
+$OpenSansPath: "~open-sans-fontface/fonts";
+$OpenSansVersion: "1.1.0";
+//Brand font
+$brand-font: "Montserrat", sans-serif;
+$secondary-font: "Raleway", sans-serif;
+$font-icon: "socicon";
+
+//Media Breakpoints description
+// md: 1024px;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 544px,
+  md: 768px,
+  lg: 1025px,
+  xl: 1200px
+) !default;
+
+
+

@@ -1,0 +1,83 @@
+.contact-rich {
+  color: $gray-dark;
+  margin-bottom: rem(32px);
+  font-family: $brand-font;
+  font-weight: 300;
+  color: $gray-dark;
+  padding-top: rem(40px);
+  h4 {
+    text-transform: uppercase;
+    color: $gray-darker;
+    margin-bottom: rem(32px);
+    display: none;
+  }
+  .block {
+    height: auto;
+    overflow: hidden;
+    .icon {
+      float: left;
+      width: rem(56px);
+      i {
+        font-size: rem(32px);
+        color: $brand-primary;
+      }
+    }
+    .data {
+      color: $gray-darker;
+      font-size: $font-size-sm;
+      width: auto;
+      overflow: hidden;
+      &.email{
+        padding-top: rem(6px);
+      }
+    }
+  }
+}
+.contact-form {
+  background: white;
+  padding: rem(16px);
+  color: $gray-dark;
+  width: 100%;
+  h3 {
+    text-transform: uppercase;
+    color: $gray-darker;
+  }
+  .form-control-label{
+	  font-weight: 300;
+  }
+  .input-group-btn{
+	  border:1px solid $brand-primary;
+  }
+}
+
+#contact{
+	#wrapper{
+	padding: rem(50px);
+	#content-wrapper{
+		padding: 0px;
+		.card{
+		 border:0px;
+	    }
+	 }
+	}
+}
+
+@include media-breakpoint-down(md){ 
+#contact{
+	#wrapper{
+	padding: rem(30px) rem(20px);
+	}
+	.card{
+		padding: rem(5px);
+	}
+}	
+}
+@include media-breakpoint-down(sm){ 
+#contact{
+	.card{
+		.btn-primary{
+			width: 100%;
+		}
+	}
+ }	
+}

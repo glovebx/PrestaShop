@@ -1,0 +1,45 @@
+#block-reassurance{
+  padding: 0px 30px 0px 73px;
+  margin-top: rem(0px);
+  background: transparent !important;
+  box-shadow: 0px 0px 0px rgba(0,0,0, 0) !important;
+  img{
+    opacity: .7;
+    width: rem(25px);
+    margin-right: rem(20px);
+    vertical-align: top;
+  }
+  li{
+	  width: 33%;
+	  display: inline-block;
+	  color: $gray-dark;
+	  float: left;
+      &:last-child {
+        border: 0;
+      }
+  }
+  li .block-reassurance-item{
+    padding: 1rem 1.5rem;
+  }
+  #checkout &, #cart &, #product &{
+    @include box-shadow;
+    background: white; 
+    span{
+      font-weight: 300;
+      font-family: $brand-font;
+	  display: inline-block;
+      line-height: 30px;
+      width: 80%;     
+    }
+  }
+}
+
+@include media-breakpoint-down(md) {
+#block-reassurance{
+	padding: 0px 30px 0px 30px;
+	li{
+		width: 100%;
+		float: none; 
+	}
+}	
+}
